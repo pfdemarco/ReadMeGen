@@ -59,8 +59,9 @@ const makeReadME = (cmdLineVals) =>
    ${cmdLineVals.tech}
 
 ## Questions
-* [GitHub](${cmdLineVals.github}.github.io)
-* [Email](${cmdLineVals.email})
+* [GitHub](https://${cmdLineVals.github}.github.io)
+* [Email](mailto:${cmdLineVals.email})
+
 `;
 
 //an array of prompts in this sequence. I dont get how I would keep going or make 3,4,5,6 
