@@ -18,25 +18,38 @@ const makeReadME = (cmdLineVals) =>
 ## Description
 ### ${cmdLineVals.description}
 
-## Table of Contents
-  * ${cmdLineVals.install}
+## * Table of Contents
 
-  * ${cmdLineVals.usage}
+## * [install](#install)
 
-  * ${cmdLineVals.license}
+## * [usage](#usage)
+
+## * [license](#license)
+
+## * [contributors](#contributors)
+
+## * [tech](#tech)
+
+#install
+  ${cmdLineVals.install}
+
+#usage
+   ${cmdLineVals.usage}
+
+#license
+   ${cmdLineVals.license}
  
-  * [${cmdLineVals.license}](${license})
+   [${cmdLineVals.license}](${license})
 
-  * ${cmdLineVals.contributors}
+#contributors
+   ${cmdLineVals.contributors}
 
-  * ${cmdLineVals.tech}
+#tech
+   ${cmdLineVals.tech}
 
-  * ${cmdLineVals.contributors}
-
-
-## Contact Info
-* [GitHub](https://github.com/pfdemarco)
-* [Email](mailto:pfdemarco@hotmail.com)
+## Questions
+* [GitHub](${cmdLineVals.github}.github.io)
+* [Email](${cmdLineVals.email})
 `;
 
 //an array of prompts in this sequence. I dont get how I would keep going or make 3,4,5,6 
@@ -116,6 +129,28 @@ inq
       validate: function(license){
         if (license === null || license === ""){
           return "Select a license from the list below";
+        }
+          return true;
+      }
+    },
+    {
+      type: 'input',
+      name: 'github',
+      message:"Enter GitHUb username",
+      validate: function(github){
+        if (github === null || github === ""){
+          return "Enter github username info";
+        }
+          return true;
+      }
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message:"Enter email username",
+      validate: function(email){
+        if (email === null || email === ""){
+          return "Enter email username info";
         }
           return true;
       }
