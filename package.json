@@ -1,0 +1,28 @@
+{
+  "name": "readmegen-2",
+  "version": "1.0.0",
+  "description": "ReadMe File Gen",
+  "main": "index.js",
+  "scripts": {
+    "test": "run_test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfdemarco/ReadMeGen.git"
+  },
+  "keywords": [
+    "Pats",
+    "Read",
+    "Me",
+    "Gen"
+  ],
+  "author": "Patrick DeMarco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pfdemarco/ReadMeGen/issues"
+  },
+  "homepage": "https://github.com/pfdemarco/ReadMeGen#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}

@@ -18,33 +18,44 @@ const makeReadME = (cmdLineVals) =>
 ## Description
 ### ${cmdLineVals.description}
 
-## * Table of Contents
+## Table of Contents
 
-## * [install](#install)
+## * [Installation](#Installation)
 
-## * [usage](#usage)
+## * [Usage](#Usage)
 
-## * [license](#license)
+## * [License](#License)
 
-## * [contributors](#contributors)
+## * [Contributors](#Contributors)
 
-## * [tech](#tech)
+## * [Testing](#Tests)
 
-#install
+## * [Technology's Used](#Technology)
+
+# Installation
+
   ${cmdLineVals.install}
 
-#usage
+# Usage
+
    ${cmdLineVals.usage}
 
-#license
+# License
+
    ${cmdLineVals.license}
  
    [${cmdLineVals.license}](${license})
 
-#contributors
+# Contributors
+
    ${cmdLineVals.contributors}
 
-#tech
+# Tests
+
+   ${cmdLineVals.test}
+
+# Technology
+
    ${cmdLineVals.tech}
 
 ## Questions
@@ -158,9 +169,7 @@ inq
   ])
 
   .then((cmdLineVals) => {
-    //////////////////////////
-    //go this from toni powell 
-    //////////////////////////
+    
     switch (`${cmdLineVals.license}`) {
       case 'Apache License 2.0':
           licBadge = "https://img.shields.io/badge/License-Apache%202.0-green.svg"
