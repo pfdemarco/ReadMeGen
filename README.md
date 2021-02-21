@@ -1,10 +1,10 @@
 
-# srt
+# Patrick DeMarcos ReadMe
 
-### ![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)
+### ![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
 
 ## Description
-### dtru
+### This is going to be teh very best read me ever
 
 ## Table of Contents
 
@@ -22,29 +22,29 @@
 
 # Installation
 
-  tryu
+  type in node indexjs and you are off have inquirer to
 
 # Usage
 
-   rty
+   use it wisely
 
 # License
 
-   Apache License 2.0
+   MIT License
  
-   [Apache License 2.0](https://opensource.org/licenses/Apache-2.0)
+   [MIT License](https://opensource.org/licenses/MIT)
 
 # Contributors
 
-   ertu
+   me some classmates internet
 
 # Tests
 
-   etyu
+   Give it a try and see
 
 # Technology
 
-   ertu
+   inquirer 
 
 ## Questions
 * [GitHubWeb](https://pfdemarco.github.io)

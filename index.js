@@ -63,7 +63,7 @@ const makeReadME = (cmdLineVals) =>
 * [GitHub](https://github.com/${cmdLineVals.github})
 * [Email](mailto:${cmdLineVals.email})
 
-# [VideoHowTo](https://drive.google.com/file/d/13Z7u1jo4uDDR4kYc_yckBCGyZqNmOuro/view)
+# [VideoHowTo](https://drive.google.com/file/d/1xWquT-FwAroWXQqCaT05pebQ1OcQKZb6/view)
 
 
 `;
