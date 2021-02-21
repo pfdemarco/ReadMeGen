@@ -62,6 +62,9 @@ const makeReadME = (cmdLineVals) =>
 * [GitHub](https://${cmdLineVals.github}.github.io)
 * [Email](mailto:${cmdLineVals.email})
 
+[VideoHowTo](https://drive.google.com/file/d/13Z7u1jo4uDDR4kYc_yckBCGyZqNmOuro/view)
+
+
 `;
 
 //an array of prompts in this sequence. I dont get how I would keep going or make 3,4,5,6 
