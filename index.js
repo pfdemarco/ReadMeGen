@@ -62,7 +62,7 @@ const makeReadME = (cmdLineVals) =>
 * [GitHub](https://${cmdLineVals.github}.github.io)
 * [Email](mailto:${cmdLineVals.email})
 
-[VideoHowTo](https://drive.google.com/file/d/13Z7u1jo4uDDR4kYc_yckBCGyZqNmOuro/view)
+# [VideoHowTo](https://drive.google.com/file/d/13Z7u1jo4uDDR4kYc_yckBCGyZqNmOuro/view)
 
 
 `;
@@ -132,6 +132,17 @@ inq
       validate: function(test){
         if (test === null || test === ""){
           return "Enter testing info";
+        }
+          return true;
+      }
+    },
+    {
+      type: 'input',
+      name: 'tech',
+      message:"Enter technology used",
+      validate: function(tech){
+        if (tech === null || tech === ""){
+          return "Enter tech used";
         }
           return true;
       }
